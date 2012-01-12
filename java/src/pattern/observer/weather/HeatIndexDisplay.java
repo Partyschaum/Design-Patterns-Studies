@@ -2,7 +2,7 @@ package pattern.observer.weather;
 
 public class HeatIndexDisplay implements Observer, DisplayElement
 {
-    private float heatIndex;;
+    private float heatIndex;
     private WeatherData weatherData;
 
     public HeatIndexDisplay(WeatherData weatherData)
